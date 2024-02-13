@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 软件管家 官网, www.softgi.com, LIC=LJWP0-BWK5K-WKIB8-3IYZ6-QV6YP-4P1Z3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  H:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\admin\Desktop\GPS解析后串口输出\USER\main.uvproj
+Project File Date:  02/12/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'H:\keil5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling main.c...
+..\MyCode\MAX30102\max30102.h(53): warning:  #1295-D: Deprecated declaration MAX30102_data_set - give arg types
+  void MAX30102_data_set();
+main.c: 1 warning, 0 errors
+compiling oled.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_it.c...
+compiling myiic.c...
+compiling algorithm.c...
+compiling max30102.c...
+..\MyCode\MAX30102\max30102.h(53): warning:  #1295-D: Deprecated declaration MAX30102_data_set - give arg types
+  void MAX30102_data_set();
+..\MyCode\MAX30102\max30102.c(467): warning:  #223-D: function "maxim_heart_rate_and_oxygen_saturation" declared implicitly
+      maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
+..\MyCode\MAX30102\max30102.c(532): warning:  #223-D: function "maxim_heart_rate_and_oxygen_saturation" declared implicitly
+          maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid);
+..\MyCode\MAX30102\max30102.c: 3 warnings, 0 errors
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling core_cm3.c...
+compiling stm32f10x_usart.c...
+compiling sys.c...
+compiling delay.c...
+compiling usart.c...
+linking...
+Program Size: Code=18238 RO-data=8274 RW-data=136 ZI-data=12784  
+FromELF: creating hex file...
+"..\OBJ\main.axf" - 0 Error(s), 4 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

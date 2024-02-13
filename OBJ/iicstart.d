@@ -1,0 +1,12 @@
+..\obj\iicstart.o: ..\MyCode\MAX30102\iicStart.c
+..\obj\iicstart.o: ..\MyCode\MAX30102\iicStart.h
+..\obj\iicstart.o: ..\USER\stm32f10x.h
+..\obj\iicstart.o: ..\CORE\core_cm3.h
+..\obj\iicstart.o: H:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\iicstart.o: ..\USER\system_stm32f10x.h
+..\obj\iicstart.o: ..\USER\stm32f10x_conf.h
+..\obj\iicstart.o: ..\STM32_FWLIB\inc\stm32f10x_gpio.h
+..\obj\iicstart.o: ..\USER\stm32f10x.h
+..\obj\iicstart.o: ..\STM32_FWLIB\inc\stm32f10x_rcc.h
+..\obj\iicstart.o: ..\STM32_FWLIB\inc\stm32f10x_usart.h
+..\obj\iicstart.o: ..\STM32_FWLIB\inc\misc.h
